@@ -1,87 +1,90 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-  *{
-    font-family: 'Inter', sans-serif;
-    padding: 0%;
-    margin: 0%;
-  }
+*{
+  font-family: 'Inter', sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
 
 /* navbar................................ */
 .top_nav_bar{   
-    word-spacing: 33px;   
-    background-color:#FC5D35;
-    text-align: center;  
-    font-size: 20px;  
-    padding: 40px;
-    
+  word-spacing: 333px;   
+  background-color: #ff1e8a 157.59% !important;  
+  /* background-image: linear-gradient(18.34deg, #ff1e8a 157.59%,  #ff7c1d -92.74%,#ff533f 20.53%,); */
+
+  text-align: center;  
+  font-size: 20px;  
+  padding: 40px;
+  
 }
-.navbar_brand_logo{
-    float: left;
+.nav-item{
+  padding-top: 18px;
+  text-decoration: none;
+  color: rgb(25, 23, 23);
+  font-weight: bold;
+  font-size: xx-large;
 }
 .first_nav_bar {
-    text-decoration: none;
-    color: rgb(25, 23, 23);
-    font-weight: bolder;
+  text-decoration: none;
+  color: rgb(25, 23, 23);
+  font-weight: bolder;
+ 
 }
 /* scrolling */
-.scroll_img{
-height: 580px;
-}
+
 
 /* about */
 .about_headng{
-    font-size: xx-large;
-    font: bolder;
-    font-family: 'Times New Roman', Times, serif;
-    color:white;
+  font-size: xx-large;
+  font: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
 }
 
 .about_para{
-    font-size: 1.1em;
-    line-height: 1.6;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 #about{
-    
-    font: bolder;
-    font-family: 'Times New Roman', Times, serif;
+  
+  font: bolder;
+  font-family: 'Times New Roman', Times, serif;
 }
 .background_color{
-    /* background: #b10505e4;    */
-    background-image: linear-gradient(161.66deg,#ff7c1d -92.74%,#ff533f 20.53%,#ff1e8a 157.59%);
+  /* background: #b10505e4;    */
+  background-image: linear-gradient(161.66deg,#ff7c1d -92.74%,#ff533f 20.53%,#ff1e8a 157.59%);
 }
 
 .about_block{
-    background-color: #4e0403;
-    height: 290px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    margin-right: 30px;
-    text-align: center;
-    color:white;
-    border-radius: 10px;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: #4e0403;
+  color:white;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* mandal ......... */
 .mandal_position{
-    float: right;
+  float: right;
 }
 
 .mandal_pic{
-    height: 150px;
-    width: 120px;
+  height: 150px;
+  width: 120px;
 }
 
 .block1{
-    
-    background-color: #4e0403;
-    height: 290px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    margin-right: 30px;
-    text-align: center;
-    color:white;
-    border-radius: 2px;
-    font-family: 'Times New Roman', Times, serif;
+  
+  background-color: #4e0403;
+  height: 290px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin-right: 30px;
+  text-align: center;
+  color:white;
+  border-radius: 2px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -91,144 +94,188 @@ text-align: center;
 
 
 .block2{
-    background-color: red;
-    margin-left: 50px;
-    height: 290px;
-    width: 300px;
-    padding: 40px;
-    text-align: center;
-    border-radius: 10%;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: red;
+  margin-left: 50px;
+  height: 290px;
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10%;
+  font-family: 'Times New Roman', Times, serif;
 
 }
- 
 
-.para{
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
 
-}
+
 .justify{
-    text-align: center;
+  text-align: center;
 }
-.click{
-    padding-left: 600px;
-    
-}
-.click button{
-    margin-left: 30px;
-}
+
 
 
 .first{
-    background-color:  #2F4F4F;
-    color: aqua;
-    padding: 40px;
-    border-radius: 5Px;
+  background-color:  #2F4F4F;
+  height: auto ;
+  width: auto;
+  color: aqua;
+  /* padding: 40px; */
+  border-radius: 5Px;
 }
 
 .second{
-    background-color:   #2F4F4F;
-    color:aqua;
-    padding:40px;
-    border-radius: 5Px;
+  background-color:   #2F4F4F;
+  height: auto ;
+  width: auto;
+  color:aqua;
+  /* padding:40px;     */
+  border-radius: 5Px;
 }
 
-.gallery{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    text-align: center;
-    color: white;
-}
 
 .display{
-    display: flex;
+  display: flex;
 }
 
 .size{
-    padding-left: 190px;
-    padding-bottom: 50px;
+  padding-left: 190px;
+  padding-bottom: 50px;
 }
 #about_1{
-    font: bolder;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
+  font: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 
 
 /* footer */
 
 .list-unstyled{
-    margin-top: 38px;
+  margin-top: 38px;
 }
 
 .footer_menu{
-    padding-top: 18px;
-    text-decoration: none;
-    color: rgb(25, 23, 23);
-    font-weight: bold;
-    font-size: large;
-   
+  padding-top: 18px;
+  text-decoration: none;
+  color: rgb(25, 23, 23);
+  font-weight: bold;
+  font-size: large;
+ 
 }
 .footer_bg {
-    background-color:  rgb(255, 255, 255);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
- 
-    bottom: 0;
-    width: 100%;
-     
+  background-color:  rgb(255, 255, 255);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  
+
+  bottom: 0;
+  width: 100%;
+   
 }
 
 
 .facebook_icon{
-    height: 50px;
-    width: 50px;
-    margin-left:12px;
-   margin-right: 12px;
-    color:blue;
+  height: 50px;
+  width: 50px;
+  margin-left:12px;
+ margin-right: 12px;
+  color:blue;
 }
 .insta_icon{
-    height: 50px;
-    width: 50px;
-    color: rgb(194, 7, 69);
+  height: 50px;
+  width: 50px;
+  color: rgb(194, 7, 69);
 }
 
- 
- 
- 
+
+
+
 .contact_num{
-    padding-top: 35px;
+  padding-top: 35px;
 }
 
 
 .whatsapp_logo {
-   
-    padding: 10px; /* Adjust padding as needed */
-    position: fixed;
-    width: 100%;
-    bottom: 35%;
-    
-    z-index: 1000;/*Set a high z-index to ensure the logo is above other elements*/
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 35%;
+  z-index: 1000; 
 }
 
 .logo {
-    width: 100px; 
-    display: block;
-    float: right;
-    height:  50px;
-    
+  width: 100px; 
+  display: block;
+  float: right;
+  height:  50px;
+  
 }
-.logo_sizes{
-    margin-top: 40px;
-}
+/* .logo_sizes{
+  margin-top: 40px;
+} */
 .fotter_end{
-    color:#4e0403;
-   margin-top: 20px;
+  color:#4e0403;
+ /* margin-top: 20px; */
 }
 .foot_pad{
-    padding-top: 10px;
-     
+  padding-top: 10px;
+   
+}
+
+.bhavi_creations{
+  text-decoration: none;
+  color: rgb(25, 23, 23);
+  font-weight: bolder;
+}
+
+.mandala_bg{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto ;
+  background-attachment: fixed;
+  background-image: url('img/mandal.transprant.png'); /* Set the mandala background image path */
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+   
+  text-align: center; /* Center text within the section */
+  /* background-color: rgba(255, 192, 203, 0.8);  */
+}
+
+
+
+.image-container{
+  
+  
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+.gallery{
+  padding-bottom: 50px;
+  text-align: center;
+  color:#4e0403;
+  
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.end{
+  width: 30%; /* Adjust the width as needed */
+  height: auto;
+  border-radius:50px; /* Make images circular */
+}
+
+.end_mini{
+  padding-top: 20px;
+  border-radius: 15px;
+  
 }
