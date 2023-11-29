@@ -7,9 +7,13 @@
 }
 
 /* navbar................................ */
+
+#nav_bg{
+    background-color: #ff1e8a 157.59% !important;  
+}
 .top_nav_bar{   
   word-spacing: 333px;   
-  background-color: #ff1e8a 157.59% !important;  
+ 
   /* background-image: linear-gradient(18.34deg, #ff1e8a 157.59%,  #ff7c1d -92.74%,#ff533f 20.53%,); */
 
   text-align: center;  
