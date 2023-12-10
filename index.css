@@ -7,7 +7,21 @@
 } */
 
 /* navbar................................ */
+.navbar-toggler-icon {
+  background-color: white; /* Replace 'your_color_here' with the desired color */
+  border-radius: 5px;
+  border-color: white;
+}
+button.navbar-toggler.collapsed{
+  
+  /* border-color: white;  */
+}
  
+/* Custom style for the toggle button when it's active (clicked) */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color:white; /* Replace 'your_active_color_here' with the desired active color */
+  border-color: white;
+}
  
 .top_nav_bat{   
  
