@@ -257,49 +257,76 @@
 
 
 
- 
-    
+   
 
 
 <div class="container form_bg " id="contact_form">
     <h1 class="text-center   ">Contact Us</h1>
 
-    <div class="row  ">
-       
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 justify-content-center text-center">
-             <label for="">NAME :  </label>  <input type="text" class="input_style" name="name" id="name" placeholder="Enter here">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
-                <label class="text-center" for="">SURNAME : </label> <input type="text" class="input_style" name="surname" id="surname"   placeholder="Enter here"> 
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
-                <label class="text-center"  for="">PHONE: </label> <input type="tel" class="input_style" name="phone" id="phone" placeholder="Enter here">  
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
-                <label class=" justify-content-center text-center"  for="">EMAIL : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="email " class="input_style" name="email" id="email"  placeholder="Enter here">
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
-                <label class=" justify-content-center text-center"   for="">CITY : &nbsp;&nbsp;&nbsp;</label><input type="text" class="input_style" name="city" id="city"  placeholder="Enter here"> 
-            </div>
-            
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">   
-             <label class=" justify-content-center text-center"   for="">STATE : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" class="input_style" name="state" id="state" placeholder="Enter here">    
-            </div>
-        
-       
-
-            <div class="submit_click ">          
-                <a href="https://pages.razorpay.com/AYODHYASRIRAMKALYANATOUR" target="_blank">
-                    <button type="button" class="btn btn-light"  >  Submit  </button>
-                </a>   
-            </div> 
-
-    </div>
     
+    <form id=" " method=" " action=" " class="p-4"> 
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                <label>First Name<span class="req">*</span> </label>
+                <input type="text" class="form-control" name="firstname" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                <label> Last Name<span class="req">*</span> </label>
+                <input type="text" class="form-control" name="lastname" id="last_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                <p class="help-block text-danger"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                  <label> Your Phone<span class="req">*</span> </label>
+                  <input type="tel" class="form-control" name="phoneno" id="phone" required data-validation-required-message="Please enter your phone number." autocomplete="off">
+                  <p class="help-block text-danger"></p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                <label> Your Email<span class="req">*</span> </label>
+                <input type="email" class="form-control" name="email" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                <label>City<span class="req">*</span> </label>
+                <input type="password" class="form-control" name="city" id="city" required data-validation-required-message="Please enter your City" autocomplete="off">
+                <p class="help-block text-danger"></p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                    <label>State<span class="req">*</span> </label>
+                    <input type="password" class="form-control" name="state" id="state" required data-validation-required-message="Please enter your City" autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div class="text-center ">
+        <div class="mrgn-30-top pb-3">
+          <button type="submit" class="btn btn-larger btn-block"/>
+          Submit
+          </button>
+        </div>
+    </div>
+     
 </div>
 
 
